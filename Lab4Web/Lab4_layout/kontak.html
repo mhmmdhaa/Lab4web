@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Layout Sederhana</title>
+    <link rel="stylesheet" href="Home.css">
+</head>
+
+<body>
+    <div id="container">
+        
+        <header>
+            <h1>Kontak</h1>
+        </header>
+
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html" class="active">Kontak</a>
+        </nav>
+
+        <section id="wrapper">
+            
+            <section id="main">
+                <article class="entry">
+                    <h2>Contact Us</h2>
+                    <p>Silakan isi formulir di bawah ini untuk mengirimkan pesan, pertanyaan, atau tanggapan Anda.</p>
+                    
+                    <form action="#" method="post" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap:</label>
+                            <input type="text" id="name" name="name" placeholder="Masukkan nama Anda..." required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Alamat Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Masukkan email Anda..." required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subjek:</label>
+                            <input type="text" id="subject" name="subject" placeholder="Subjek pesan...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Pesan:</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submit">Kirim Pesan</button>
+                    </form>
+                </article>
+            </section>
+
+            <aside id="sidebar">
+                <div class="widget-box">
+                    <h3 class="title">Informasi Kontak</h3>
+                    <p><strong>Alamat:</strong> Jl. Inspeksi Kalimalang, Cikarang Selatan, Bekasi</p>
+                    <p><strong>Email:</strong> info@pelitabangsa.ac.id</p>
+                </div>
+                <div class="widget-box">
+                    <h3 class="title">Widget Header</h3>
+                    <ul>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                    </ul>
+                </div>
+            </aside>
+
+        </section>
+
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
